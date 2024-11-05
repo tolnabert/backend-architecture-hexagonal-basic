@@ -24,12 +24,9 @@ export default function createApp(options = {}) {
         },
         response: {
           201: {
-            type: 'array',
-            items: {
-              type: 'object',
-              properties: {
-                greeting: { type: 'string' },
-              },
+            type: 'object',
+            properties: {
+              greeting: { type: 'string' },
             },
           },
         },
@@ -43,7 +40,7 @@ export default function createApp(options = {}) {
 
       const result = greetingService.greet(name);
 
-      reply.status(201).send([{ greeting: result }]);
+      reply.status(201).send({ greeting: result });
     }
   );
 
