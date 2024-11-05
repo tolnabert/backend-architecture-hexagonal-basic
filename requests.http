@@ -3,3 +3,32 @@
 ###
 
 GET {{host}}/hello
+
+###
+
+POST {{host}}/greet
+Content-Type: application/json
+
+{
+    "name": "Bob"
+}
+
+###
+
+POST {{host}}/greet
+Content-Type: application/json
+
+{
+    "name": "Alice"
+}
+
+###
+
+POST {{host}}/greet
+Content-Type: application/json
+
+{
+    "name": "Gergő"
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "greetings": [
+    {
+      "greeting": "Hello, Bob"
+    },
+    {
+      "greeting": "Hello, Alice"
+    },
+    {
+      "greeting": "Hello, Gergő"
+    }
+  ]
+}

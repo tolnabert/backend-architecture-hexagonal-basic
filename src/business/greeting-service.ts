@@ -1,5 +1,5 @@
 export interface ProvideNamePrimaryPort {
-  greet: (name: string) => string;
+  greet: (name: string) => void;
 }
 
 export interface StoreGreetingSecondaryPort {

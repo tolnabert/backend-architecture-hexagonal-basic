@@ -5,13 +5,15 @@
   "scripts": {
     "test": "jest",
     "server": "nodemon --exec ts-node src/server.ts",
-    "ts": "ts-node"
+    "ts": "ts-node",
+    "prompt": "ts-node src/prompt.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@fastify/type-provider-json-schema-to-ts": "^4.0.0",
     "fastify": "^5.0.0",
     "prompt-sync": "^4.2.0"
   },
